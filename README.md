@@ -16,4 +16,4 @@ This is a shopping cart project developed in JavaScript. It allows users to add,
 - **HTML**: Basic structure of the page.
 - **CSS**: Styling and design of the user interface.
 - **JavaScript**: Shopping cart logic and DOM manipulation.
-- **GitHub Pages** (optional): You can use this feature to deploy your project online.
+
