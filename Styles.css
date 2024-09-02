@@ -1,0 +1,188 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+.plus{
+    color:green;
+}
+.minus{
+    color:red;
+}
+.nav{
+    background-color: rgb(37, 37, 45);
+    width: 100vw;
+    height: 90px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding:28px;
+}
+#info{
+    border:none;
+    background-color: inherit;
+    font-size: 24px;
+    color:white
+}
+button:hover{
+    cursor: pointer;
+}
+.nav p{
+    background-color: red;
+    width: 13px;
+    padding:2px;
+    border-radius: 2px;
+    position:absolute;
+    top:8px;
+    right:15px;
+}
+#cart{
+    width: 40px;
+    height: 32px;
+}
+/* Estilos de Imagenes de Main */
+#main{
+    display: flex;
+    /* display: none; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:30px;
+    margin:auto;
+    margin-top: 30px;
+    width: 80%;
+}
+#main figure{
+    border: 3px solid rgb(37, 37, 45);
+    border-radius: 5px;
+    width: 210px;
+    height: 320px;
+}
+#main img{
+    width: 100%;
+    height: 66%;
+}
+#main .padding{
+    padding: 10px;
+}
+#main .padding figcaption,#main .padding .price{
+    font-weight: bold;
+    font-size: 18px;
+}
+#main .change{
+    display: flex;
+    font-size: 18px;
+}
+#main .line, #bought .two{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+#main .padding button{
+    border:none;
+    background-color: white;
+    font-size: 18px;
+    margin-top: -2px;
+}
+/* Estilos de imagenes de Bought */
+#bought figure{
+    border: 2px solid rgb(37, 37, 45);
+    border-radius: 5px;
+    width: 310px;
+    height: 110px;
+    display: flex;
+}
+#bought .padding{
+    width: 65%;
+    padding:4px
+}
+#bought img{
+    width: 34%;
+    height: 100%;
+}
+#bought .one{
+    display:flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+}
+#bought .price{
+    margin-left: -6px;
+    color:white;
+    background-color: rgb(37, 37, 45);
+    padding:2px;
+    border-radius: 3px;
+}
+#bought .quit{
+    border:none;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -5px;
+    color:red;
+}
+#bought .two{
+    width: 30%;
+    margin: 10px 0 7px 0;
+    font-size: 20px;
+}
+#bought .two button{
+    color:black;
+    background-color: transparent;
+    border:none;
+    margin-top: -2px;
+    font-size: 16px;
+}
+#bought .total{
+    font-size: 22px;
+    font-weight: bold;
+}
+#second{
+    display:block;
+    margin: 30px auto;
+    width: 30%;
+    padding: 5px;
+}
+#bought{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    margin: 10px auto;
+}
+/* Botones de retroceso */
+#boughtDiv{
+    display:none;
+    margin:1px auto;
+    width: 34%;
+}
+#backDiv{
+    display: none;
+    margin:1px auto;
+    /* display:block; */
+    width: 40%;
+}
+#backDiv h3{
+    font-weight: bolder;
+    font-size: 24px;
+}
+#back{
+    background-color: rgb(33, 33, 84);
+    margin:10px 0 5px 26px;
+}
+
+/* Botones de compra */
+#second button{
+    border:none;
+    color:white;
+    padding:5px;
+    border-radius: 4px;
+}
+#checkOut{
+    background-color: green;
+}
+#clearCart{
+    background-color: red;
+}
+#boughtDiv h3{
+    font-size: 26px;
+    margin-left: 13px;
+}
